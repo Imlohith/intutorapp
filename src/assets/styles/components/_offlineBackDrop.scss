@@ -1,0 +1,30 @@
+.messageDiv {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin-top: 220px;
+    font-size: larger;
+}
+
+.messageTime {
+    // display: flex;
+    // justify-content: center;
+    text-align: center;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+}
+
+.tryNow {
+    margin-left: 6px;
+    cursor: pointer;
+
+    &:hover {
+        color: #d9fec9;
+    }
+}
+.emptyDiv {
+    width: 6px;
+}

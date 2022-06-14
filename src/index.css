@@ -1,0 +1,74 @@
+/* === Prime styles === */
+@import 'primeflex/primeflex.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #FAFAFA; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  margin: 0px auto;
+  width: 80% !important;
+  /* background-color: #FAFAFA; */
+  /* padding: 20px; */
+}
+.container-data{
+  margin: 0px auto;
+  width: 80% !important;
+  background-color: #FAFAFA; 
+  padding: 20px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(201, 196, 196);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(201, 196, 196);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(201, 196, 196);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+h1{
+  font-size: 1.6rem;
+}
+h3{
+  font-size: 1.2rem;
+}
+h4{
+  font-size: 1rem;
+}
+h5{
+  font-size: 0.8rem;
+}

@@ -1,0 +1,194 @@
+.App {
+    height: 100%;
+}
+
+.rgt-cell:not(.rgt-row-edit):not(.rgt-row-not-selectable) {
+    cursor: pointer;
+}
+
+.rgt-row-selected {
+    background: #f3f6f9;
+}
+
+.rgt-row-hover {
+    background: #f7f7f7;
+}
+
+.rgt-cell-header-inner {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.rgt-cell-inner {
+    opacity: 0.8;
+}
+
+.cell-text {
+    text-align: center;
+    font-size: smaller;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+.sidebar .nav .nav-item .nav-link .menu-title {
+    font-weight: 500;
+    opacity: 0.88;
+}
+
+.rgt-wrapper {
+    padding-bottom: 4%;
+}
+
+.content-wrapper {
+    padding: 1.2rem 2.25rem 0 2.25rem;
+}
+
+.btn-change-status {
+    width: 100%;
+}
+
+.cell-input {
+    // border: none;
+    outline: none;
+    border-color: #525151;
+}
+
+.cell-input:focus {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-color: #525151;
+}
+
+.merge-check-cancel-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.parent-merge-check-cancel-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    transition: transform 0.2s;
+}
+
+.icon:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.btn-dialogue {
+    margin: 0 0 0.8rem 0;
+}
+
+.active-inactive {
+    display: flex;
+    margin: 0.4% 0 0 0.5%;
+    color: #2bcfb4;
+    font-weight: 500;
+}
+
+.expand-header {
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    margin-left: 12%;
+    margin-top: 0.5%;
+    font-size: x-large;
+}
+
+.expand-info {
+    display: flex;
+    // justify-content: space-around;
+    flex-flow: column;
+}
+
+.info-header {
+    font-weight: 500;
+    font-size: large;
+}
+
+.form-group-col1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-col2 {
+    @extend .form-group-col1;
+    width: 100%;
+    margin: 0 51.5% 0 0;
+}
+
+.inner-form-group-col2 {
+    @extend .form-group-col1;
+    width: 100%;
+}
+
+.shiping-merge-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expand-header-merge {
+    display: flex;
+    background: lightgoldenrodyellow;
+}
+
+.header-details {
+    font-weight: 600;
+}
+
+.form-group label {
+    @extend .header-details;
+}
+
+.second-merge-div {
+    width: 48.5%;
+}
+
+.drop-down-div {
+    display: flex;
+    width: 48%;
+    justify-content: flex-start;
+    margin: 1% 0 0 0;
+}
+
+.dropdown-menuitems {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.expand-btn-div {
+    margin: 2% 0 0 0;
+    width: 14%;
+    text-align: center;
+}
+
+.bottom-expand-div {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.btn-light {
+    border-color: #ebedf2;
+}
+
+.no-display {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    flex-flow: column;
+    align-items: center;
+    font-size: xx-large;
+    color: #a7a2a2;
+}
