@@ -43,7 +43,7 @@ export default class LoginComponent extends Component {
                             
                         </div>
                         <div style={{textAlign:'center'}}>
-                            <div className="forgot-text">Forgot your password?</div>
+                            <div className="forgot-text">Forgot your password</div>
                             <Link to="/tutor/dashboard" style={{textDecoration:'none'}}>
                                 <Button label="Log in" className="p-button-warning login-botton" />
                             </Link>
